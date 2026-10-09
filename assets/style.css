@@ -1,0 +1,16 @@
+body { background: radial-gradient(ellipse at top right, #243019 0, #080b0b 55%) !important; font-family: 'Segoe UI', sans-serif !important; }
+h1 { font-size: clamp(30px, 5vw, 48px); letter-spacing: -2px; margin: 12px 0; }
+.eyebrow { color: #baca9c; letter-spacing: 3px; font-size: 11px; margin-top: 28px; font-weight: 700; }
+.subtitle { color: #aab6af; font-size: 17px; margin-bottom: 28px; }
+.summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 24px 0; }
+.stat-card { padding: 22px; border: 1px solid #354035; border-radius: 12px; background: #121a15; }
+.stat-card small { display: block; color: #aab6af; letter-spacing: 1px; font-size: 10px; }
+.stat-card strong { display: block; font-size: 25px; margin-top: 12px; }
+#source { display: block; margin: 14px 0 !important; font-size: 12px; line-height: 1.8; }
+button { border-radius: 6px; min-height: 36px; }
+a { color: #d5e597; }
+.footnote { font-size: 12px; color: #aab6af; line-height: 1.8; margin: 20px 0; }
+.dash-table-container { margin-top: 16px; }
+.dash-cell { padding: 12px !important; }
+.rc-slider { margin: 24px 0 !important; }
+@media (max-width: 650px) { .summary { grid-template-columns: repeat(2, 1fr); } .stat-card { padding: 14px; } .stat-card strong { font-size: 20px; } }
